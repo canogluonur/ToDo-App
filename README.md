@@ -21,12 +21,19 @@ $ kubectl get pods
 $ kubectl get svc
 ```
 
-Then You can look the app on your browser. --> http://'your-minikube-ip':30002 
+Then You can look the app on your browser. 
+
+```
+$ http://'your-minikube-ip':30002 
+```
 
 this command you can access the app.
 
-if you want to access mongoDB on mongodb-compass --> mongodb://'your-minikube-ip':30001/
+if you want to access mongoDB on mongodb-compass
 
+```
+$ mongodb://'your-minikube-ip':30001/
+```
 
 If you want to delete deployments
 
